@@ -28,5 +28,7 @@ python3 -m pip install \
     Pillow==10.1.0 \
     markdown-it-py==2.2.0 \
     rich==13.7.0
+    openai==1.35.12
 
 echo "✅ Setup complete!"
+
