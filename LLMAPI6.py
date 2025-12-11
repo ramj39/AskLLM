@@ -10,6 +10,7 @@ from io import BytesIO
 #client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 #st.write("Secrets loaded:", st.secrets)
 from openai import OpenAI
+st.write("Secrets available:", st.secrets)
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 response = client.chat.completions.create(
@@ -896,6 +897,7 @@ st.snow()
 
 if __name__ == "__main__":
     main()
+
 
 
 
