@@ -8,15 +8,21 @@ import base64
 import json
 from io import BytesIO
 #client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-st.write("Secrets loaded:", st.secrets)
-# ----------------------------
+#st.write("Secrets loaded:", st.secrets)
+from openai import OpenAI
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+
+response = client.chat.completions.create(
+    model="gpt-4.1-mini",
+    messages=[{"role": "user", "content": prompt}]
+)# ----------------------------
 # LLM CONFIGURATION
 # ----------------------------
-LLM_CONFIG = {
-    "api_url": "https://api.groq.com/openai/v1/chat/completions",
-    "default_model": "llama-3.1-8b-instant",
-    "api_key": ""  # Will be set by user
-}
+#LLM_CONFIG = {
+    #"api_url": "https://api.groq.com/openai/v1/chat/completions",
+    #"default_model": "llama-3.1-8b-instant",
+    #"api_key": ""  # Will be set by user
+#}
 
 # Initialize LLM session state
 if "llm_messages" not in st.session_state:
@@ -890,6 +896,7 @@ st.snow()
 
 if __name__ == "__main__":
     main()
+
 
 
 
