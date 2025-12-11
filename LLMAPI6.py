@@ -8,6 +8,7 @@ import base64
 import json
 from io import BytesIO
 #client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+st.write("Secrets loaded:", st.secrets)
 # ----------------------------
 # LLM CONFIGURATION
 # ----------------------------
@@ -889,5 +890,6 @@ st.snow()
 
 if __name__ == "__main__":
     main()
+
 
 
