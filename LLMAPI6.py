@@ -8,46 +8,47 @@ import base64
 import json
 from io import BytesIO
 import os
-# 🔑 Load secrets early
+import os
+import streamlit as st
+
+# --- Load secrets early ---
 def get_api_key():
-    if "GROQ_API_KEY" in st.secrets:
-        return st.secrets["GROQ_API_KEY"]
-    return os.getenv("GROQ_API_KEY", "")
+    # Prefer secrets; fallback to environment
+    return st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
 
 api_key = get_api_key()
 
-# Optional: make it available as an environment variable
+# Optional: export to environment for libraries that read it
 os.environ["GROQ_API_KEY"] = api_key
 
-# ----------------------------
-# Sidebar status indicator
-# ----------------------------
-st.sidebar.header("LLM Configuration")
+# --- Sidebar: status only, never the key ---
+st.sidebar.header("LLM configuration")
 if api_key:
     st.sidebar.success("✅ Groq API Key active")
 else:
     st.sidebar.error("❌ No API Key found")
 
-# ----------------------------
-# Masked confirmation in main UI
-# ----------------------------
-if api_key:
+# Optional override (does not show secrets, safe for public)
+user_key = st.sidebar.text_input("Override API Key", type="password", value="")
+if user_key:
+    api_key = user_key
+
+# --- Main UI: masked confirmation (optional) ---
+show_masked = st.toggle("Show masked key", value=False)
+if show_masked and api_key:
     st.write("Key loaded:", api_key[:5] + "..." + api_key[-3:])
-else:
+elif not api_key:
     st.write("No key found.")
 
-# ----------------------------
-# LLM CONFIGURATION (Groq)
-# ----------------------------
+# --- LLM config (uses internal key only) ---
 LLM_CONFIG = {
     "api_url": "https://api.groq.com/openai/v1/chat/completions",
     "default_model": "llama-3.1-8b-instant",
-    "api_key": api_key,  # securely loaded
+    "api_key": api_key,
 }
 
-# Initialize LLM session state
-if "llm_messages" not in st.session_state:
-    st.session_state.llm_messages = []
+# --- Initialize session state ---
+st.session_state.setdefault("llm_messages", [])
 
 # ----------------------------
 # CHEMISTRY FUNCTIONS (Existing)
