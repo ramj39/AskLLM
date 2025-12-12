@@ -20,6 +20,14 @@ api_key = get_api_key()
 
 # Optional: make it available as an environment variable
 os.environ["GROQ_API_KEY"] = api_key
+# 🛡 Safe debug line (temporary, for testing)
+if api_key:
+    st.write("Key loaded successfully. Prefix:", api_key[:5] + "..." + api_key[-2:])
+else:
+    st.write("No key found.")
+
+# ✅ Use the key in your app logic
+# client = SomeLLMClient(api_key=api_key)
 
 # ✅ Keep these lines active, don’t comment them out
 st.write("Key loaded:", api_key[:5] + "..." if api_key else "No key found")
