@@ -7,6 +7,25 @@ import requests
 import base64
 import json
 from io import BytesIO
+import os
+import streamlit as st
+
+# 🔑 Load secrets early
+def get_api_key():
+    if "GROQ_API_KEY" in st.secrets:
+        return st.secrets["GROQ_API_KEY"]
+    return os.getenv("GROQ_API_KEY", "")
+
+api_key = get_api_key()
+
+# Optional: make it available as an environment variable
+os.environ["GROQ_API_KEY"] = api_key
+
+# ✅ Keep these lines active, don’t comment them out
+st.write("Key loaded:", api_key[:5] + "..." if api_key else "No key found")
+
+# Example usage
+# client = SomeLLMClient(api_key=api_key)
 
 # ----------------------------
 # LLM CONFIGURATION (Groq)
@@ -17,7 +36,7 @@ LLM_CONFIG = {
     "api_url": "https://api.groq.com/openai/v1/chat/completions",
     "default_model": "llama-3.1-8b-instant",
     # Read from secrets if present; fallback to empty string
-    "groq_api_key": st.secrets.get("GROQ_API_KEY", "")
+    "api_key": st.secrets.get("GROQ_API_KEY", "")
 }
 
 # Initialize LLM session state
@@ -676,4 +695,3 @@ st.info("developed by subramanian ramajayam")
 
 if __name__ == "__main__":
     main()
-
