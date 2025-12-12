@@ -17,7 +17,7 @@ LLM_CONFIG = {
     "api_url": "https://api.groq.com/openai/v1/chat/completions",
     "default_model": "llama-3.1-8b-instant",
     # Read from secrets if present; fallback to empty string
-    "api_key": st.secrets.get("GROQ_API_KEY", "")
+    "groq_api_key": st.secrets.get("GROQ_API_KEY", "")
 }
 
 # Initialize LLM session state
@@ -676,3 +676,4 @@ st.info("developed by subramanian ramajayam")
 
 if __name__ == "__main__":
     main()
+
