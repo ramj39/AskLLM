@@ -8,10 +8,6 @@ import base64
 import json
 from io import BytesIO
 import os
-import streamlit as st
-import streamlit as st
-import os
-
 # 🔑 Load secrets early
 def get_api_key():
     if "GROQ_API_KEY" in st.secrets:
@@ -23,59 +19,30 @@ api_key = get_api_key()
 # Optional: make it available as an environment variable
 os.environ["GROQ_API_KEY"] = api_key
 
-# 🛡 Safe debug line (temporary, for testing)
+# ----------------------------
+# Sidebar status indicator
+# ----------------------------
+st.sidebar.header("LLM Configuration")
 if api_key:
-    st.write("Key loaded successfully. Prefix:", api_key[:5] + "..." + api_key[-2:])
+    st.sidebar.success("✅ Groq API Key active")
+else:
+    st.sidebar.error("❌ No API Key found")
+
+# ----------------------------
+# Masked confirmation in main UI
+# ----------------------------
+if api_key:
+    st.write("Key loaded:", api_key[:5] + "..." + api_key[-3:])
 else:
     st.write("No key found.")
-
-# ✅ Use the key in your app logic
-# client = SomeLLMClient(api_key=api_key)
-
-# ✅ Keep these lines active, don’t comment them out
-st.write("Key loaded:", api_key[:5] + "..." if api_key else "No key found")
-
-# ➕ NEW lines: show both prefix and suffix for clarity
-#if api_key:
-    #st.write("Key check (prefix + suffix):", api_key[:5] + "..." + api_key[-4:])
-    # Optional: confirm length without exposing full key
-    #st.write("Key length:", len(api_key))
-
-# 🔑 Load secrets early
-def get_api_key():
-    if "GROQ_API_KEY" in st.secrets:
-        return st.secrets["GROQ_API_KEY"]
-    return os.getenv("GROQ_API_KEY", "")
-
-api_key = get_api_key()
-
-# Optional: make it available as an environment variable
-os.environ["GROQ_API_KEY"] = api_key
-# 🛡 Safe debug line (temporary, for testing)
-#if api_key:
-    #st.write("Key loaded successfully. Prefix:", api_key[:5] + "..." + api_key[-2:])
-#else:
-    #st.write("No key found.")
-
-# ✅ Use the key in your app logic
-# client = SomeLLMClient(api_key=api_key)
-
-# ✅ Keep these lines active, don’t comment them out
-#st.write("Key loaded:", api_key[:5] + "..." if api_key else "No key found")
-
-# Example usage
-# client = SomeLLMClient(api_key=api_key)
 
 # ----------------------------
 # LLM CONFIGURATION (Groq)
 # ----------------------------
-# Preferred secret name in Streamlit Cloud: GROQ_API_KEY
-# If you put GROQ_API_KEY into the Streamlit Secrets panel, it will be used automatically.
 LLM_CONFIG = {
     "api_url": "https://api.groq.com/openai/v1/chat/completions",
     "default_model": "llama-3.1-8b-instant",
-    # Read from secrets if present; fallback to empty string
-    "api_key": st.secrets.get("GROQ_API_KEY", "")
+    "api_key": api_key,  # securely loaded
 }
 
 # Initialize LLM session state
