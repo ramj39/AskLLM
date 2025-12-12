@@ -3,12 +3,43 @@ from rdkit import Chem
 from rdkit.Chem import Draw, Descriptors, rdMolDescriptors
 import pandas as pd
 import re
-import requests
+#import requests
 import base64
 import json
 from io import BytesIO
 import os
 import streamlit as st
+import streamlit as st
+import os
+
+# 🔑 Load secrets early
+def get_api_key():
+    if "GROQ_API_KEY" in st.secrets:
+        return st.secrets["GROQ_API_KEY"]
+    return os.getenv("GROQ_API_KEY", "")
+
+api_key = get_api_key()
+
+# Optional: make it available as an environment variable
+os.environ["GROQ_API_KEY"] = api_key
+
+# 🛡 Safe debug line (temporary, for testing)
+if api_key:
+    st.write("Key loaded successfully. Prefix:", api_key[:5] + "..." + api_key[-2:])
+else:
+    st.write("No key found.")
+
+# ✅ Use the key in your app logic
+# client = SomeLLMClient(api_key=api_key)
+
+# ✅ Keep these lines active, don’t comment them out
+st.write("Key loaded:", api_key[:5] + "..." if api_key else "No key found")
+
+# ➕ NEW lines: show both prefix and suffix for clarity
+#if api_key:
+    #st.write("Key check (prefix + suffix):", api_key[:5] + "..." + api_key[-4:])
+    # Optional: confirm length without exposing full key
+    #st.write("Key length:", len(api_key))
 
 # 🔑 Load secrets early
 def get_api_key():
@@ -21,16 +52,16 @@ api_key = get_api_key()
 # Optional: make it available as an environment variable
 os.environ["GROQ_API_KEY"] = api_key
 # 🛡 Safe debug line (temporary, for testing)
-if api_key:
-    st.write("Key loaded successfully. Prefix:", api_key[:5] + "..." + api_key[-2:])
-else:
-    st.write("No key found.")
+#if api_key:
+    #st.write("Key loaded successfully. Prefix:", api_key[:5] + "..." + api_key[-2:])
+#else:
+    #st.write("No key found.")
 
 # ✅ Use the key in your app logic
 # client = SomeLLMClient(api_key=api_key)
 
 # ✅ Keep these lines active, don’t comment them out
-st.write("Key loaded:", api_key[:5] + "..." if api_key else "No key found")
+#st.write("Key loaded:", api_key[:5] + "..." if api_key else "No key found")
 
 # Example usage
 # client = SomeLLMClient(api_key=api_key)
