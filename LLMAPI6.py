@@ -3,7 +3,7 @@ from rdkit import Chem
 from rdkit.Chem import Draw, Descriptors, rdMolDescriptors
 import pandas as pd
 import re
-#import requests
+import requests
 import base64
 import json
 from io import BytesIO
@@ -702,3 +702,4 @@ st.info("developed by subramanian ramajayam")
 
 if __name__ == "__main__":
     main()
+
