@@ -1829,9 +1829,24 @@ def main():
 # ----------------------------
 # RUN THE APP
 # ----------------------------
+st.markdown("---")
+st.header("💬 Feedback")
+
+feedback = st.text_area("Share your comments or suggestions here:")
+
+if st.button("Submit Feedback"):
+    if feedback.strip():
+        st.success("✅ Thanks for your feedback! We appreciate your input.")
+        # Optional: save feedback to a file
+        with open("feedback.txt", "a") as f:
+            f.write(feedback + "\n")
+    else:
+        st.warning("⚠️ Please enter some feedback before submitting.")
+
 
 if __name__ == "__main__":
     main()
+
 
 
 
