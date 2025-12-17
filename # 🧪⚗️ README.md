@@ -1,3 +1,4 @@
+README for LLMAPI6.py
 # 🧪⚗️ Chemistry AI Assistant
 
 An intelligent web application that combines automated organic chemistry problem-solving with AI-powered explanations. The app supports 1-5 reactant analysis, reaction pathway prediction, and expert-level LLM explanations.
@@ -21,7 +22,15 @@ An intelligent web application that combines automated organic chemistry problem
 - **General chemistry Q&A**: Ask any chemistry-related questions
 - **Conversation history**: Full chat history with download capability
 - **Multiple LLM models**: Support for Llama, Mixtral, and other Groq models
-
+- ========================================================================
+***README for LLMAPI10.py
+Same as for LLMAPI6.py but there are additional features as under:
+On the sidebar,LLM will be quite useful for searching information not found otherwise in the app.The following links can be used to navigate.
+*1.Reaction Database
+*2.Compound Explorer
+*3.Quick Tools ---a.Compound lookup, b.Select compound category, c.Functional group detector ,D.Smiles validator.
+***In the Main function.there are 3 tabs--1.Browse by category,2.Search compounds,3.Advanced analysis.
+   
 ## 🚀 Quick Start
 
 ### Local Development
@@ -34,4 +43,5 @@ cd chemistry-ai-assistant
 pip install -r requirements.txt
 
 # Run the application
+
 streamlit run app.py
