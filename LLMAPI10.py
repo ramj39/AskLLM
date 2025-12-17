@@ -190,6 +190,7 @@ class ChemistryReactionEngine:
             'methyl salicylate': 'COC(=O)c1ccccc1O',
             'aspirin': 'CC(=O)Oc1ccccc1C(=O)O',
             'ethyl acetoacetate': 'CC(=O)CC(=O)OCC',
+            'ethyl suberate':'CC(C(=O)OCC)C(=O)OCC',
             
             # AMINES (Primary)
             'methylamine': 'CN',
@@ -1830,4 +1831,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
