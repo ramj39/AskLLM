@@ -237,6 +237,7 @@ class ChemistryReactionEngine:
             
             # NITRO COMPOUNDS
             'nitromethane': 'C[N+](=O)[O-]',
+            'ethyl nitrate':'CCO[N+](=O)[O-]',
             'nitroethane': 'CC[N+](=O)[O-]',
             '1-nitropropane': 'CCC[N+](=O)[O-]',
             'nitrobenzene': 'O=[N+]([O-])c1ccccc1',
@@ -1831,5 +1832,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
