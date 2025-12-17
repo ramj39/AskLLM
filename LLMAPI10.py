@@ -1843,9 +1843,28 @@ if st.button("Submit Feedback"):
     else:
         st.warning("⚠️ Please enter some feedback before submitting.")
 
+import sqlite3
+
+conn = sqlite3.connect("visitors.db")
+c = conn.cursor()
+c.execute("CREATE TABLE IF NOT EXISTS counter (visits INTEGER)")
+c.execute("SELECT COUNT(*) FROM counter")
+if c.fetchone()[0] == 0:
+    c.execute("INSERT INTO counter VALUES (0)")
+    conn.commit()
+
+c.execute("UPDATE counter SET visits = visits + 1")
+conn.commit()
+
+c.execute("SELECT visits FROM counter")
+count = c.fetchone()[0]
+
+st.sidebar.write(f"👥 Total visitors: {count}")
+
 
 if __name__ == "__main__":
     main()
+
 
 
 
