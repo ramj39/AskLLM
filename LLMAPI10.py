@@ -212,6 +212,7 @@ class ChemistryReactionEngine:
             'dipropylamine': 'CCCNCCC',
             'methylaniline': 'CNc1ccccc1',
             'ethylaniline': 'CCNc1ccccc1',
+            'azobenzene':'C1=CC=C(C=C1)N=Nc2ccccc2',
             
             # AMINES (Tertiary)
             'trimethylamine': 'CN(C)C',
@@ -1867,6 +1868,7 @@ st.sidebar.write(f"👥 Total visitors: {count}")
 
 if __name__ == "__main__":
     main()
+
 
 
 
