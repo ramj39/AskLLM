@@ -165,6 +165,7 @@ class ChemistryReactionEngine:
             'acetic acid': 'CC(=O)O',
             'acetoacetic acid':'CC(=O)CC(=O)O',
             'alpha atropic acid':'C1=CC(=C(C(=C1)O)C(=O))C',
+            'azeleic acid':'CC(C(=O)O)CCCCCC(=O)O',
             'beta atropic acid':'CC(=O)Nc1ccc(cc1)S(=O)(=O)N',
             'propionic acid': 'CCC(=O)O',
             'butyric acid': 'CCCC(=O)O',
@@ -1866,6 +1867,7 @@ st.sidebar.write(f"👥 Total visitors: {count}")
 
 if __name__ == "__main__":
     main()
+
 
 
 
