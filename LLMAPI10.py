@@ -164,6 +164,8 @@ class ChemistryReactionEngine:
             'formic acid': 'OC=O',
             'acetic acid': 'CC(=O)O',
             'acetoacetic acid':'CC(=O)CC(=O)O',
+            'alpha atropic acid':'C1=CC(=C(C(=C1)O)C(=O))C',
+            'beta atropic acid':'CC(=O)Nc1ccc(cc1)S(=O)(=O)N',
             'propionic acid': 'CCC(=O)O',
             'butyric acid': 'CCCC(=O)O',
             'valeric acid': 'CCCCC(=O)O',
@@ -1864,6 +1866,7 @@ st.sidebar.write(f"👥 Total visitors: {count}")
 
 if __name__ == "__main__":
     main()
+
 
 
 
