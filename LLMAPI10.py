@@ -1864,11 +1864,12 @@ conn.commit()
 c.execute("SELECT visits FROM counter")
 count = c.fetchone()[0]
 
-st.sidebar.write(f"👥 Total visitors: {count}")
+#st.sidebar.write(f"👥 Total visitors: {count}")
 
 
 if __name__ == "__main__":
     main()
+
 
 
 
