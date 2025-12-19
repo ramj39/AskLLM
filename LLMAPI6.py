@@ -697,12 +697,13 @@ def render_llm_chat():
         st.download_button(label="Download Full Chat", data=chat_text, file_name="llm_chat_history.txt", mime="text/plain", use_container_width=True)
 
 # Footer
-st.write("https://github.com/ramj39/AskLLM/blob/main/README.md")
+st.write("https://github.com/ramj39/AskLLM/blob/master/README.md")
 st.markdown("[reference-wikipedia](https://en.wikipedia.org/wiki/List_of_organic_reactions)")
 st.info("developed by subramanian ramajayam")
 st.snow()
 if __name__ == "__main__":
     main()
+
 
 
 
