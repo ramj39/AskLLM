@@ -1216,6 +1216,7 @@ def render_enhanced_sidebar():
                     st.error("❌ Invalid SMILES")
         
         st.markdown("---")
+        st.markdown("[help file](https://github.com/ramj39/AskLLM/blob/main/README.md)")
         st.markdown("[reference literature](https://en.wikipedia.org/wiki/List_of_organic_reactions)") 
         st.caption("Developed by Subramanian Ramajayam")
 
@@ -1868,6 +1869,7 @@ st.sidebar.write(f"👥 Total visitors: {count}")
 
 if __name__ == "__main__":
     main()
+
 
 
 
