@@ -698,11 +698,13 @@ def render_llm_chat():
 
 # Footer
 st.markdown("[help file](https://github.com/ramj39/AskLLM/blob/main/README.md)")
+st.markdown("[test yourself](https://github.com/ramj39/AskLLM/blob/main/test_knowledge.txt)")
 st.markdown("[reference-wikipedia](https://en.wikipedia.org/wiki/List_of_organic_reactions)")
 st.info("developed by subramanian ramajayam")
 st.snow()
 if __name__ == "__main__":
     main()
+
 
 
 
