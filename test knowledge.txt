@@ -1,4 +1,4 @@
-USER: 25 Questions to Test knowledge in organic chemistry
+USER: 17 Questions to Test knowledge in organic chemistry
 ASSISTANT: Here are 25 questions to test your knowledge in organic chemistry:
 Question 1: What is the main difference between a primary, secondary, and tertiary alcohol? A. The number of hydrogen atoms attached to the carbon atom B. The number of alkyl groups attached to the carbon atom C. The number of oxygen atoms attached to the carbon atom D. The number of double bonds in the molecule
 Question 2: What type of reaction is used to synthesize an ester from an acid and an alcohol? A. SN1 reaction B. SN2 reaction C. SN2 reaction with a leaving group D. Esterification reaction
@@ -17,3 +17,4 @@ Question 14: What type of reaction is used to synthesize an ether from two alcoh
 Question 15: What is the name of the reaction where a molecule is reduced to form a new compound? A. Oxidation reaction B. Reduction reaction C. Hydrolysis reaction D. Esterification reaction
 Question 16: What is the main difference between a ketone and an aldehyde? A. The number of carbon atoms in the molecule B. The type of functional group present C. The type of bond formed between the molecules D. The type of reaction involved
 Question 17: What type of reaction is used to synthesize a tertiary alcohol from a primary
+
