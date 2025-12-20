@@ -1,0 +1,19 @@
+USER: 25 Questions to Test knowledge in organic chemistry
+ASSISTANT: Here are 25 questions to test your knowledge in organic chemistry:
+Question 1: What is the main difference between a primary, secondary, and tertiary alcohol? A. The number of hydrogen atoms attached to the carbon atom B. The number of alkyl groups attached to the carbon atom C. The number of oxygen atoms attached to the carbon atom D. The number of double bonds in the molecule
+Question 2: What type of reaction is used to synthesize an ester from an acid and an alcohol? A. SN1 reaction B. SN2 reaction C. SN2 reaction with a leaving group D. Esterification reaction
+Question 3: What is the name of the reaction where a methyl group is transferred from one molecule to another? A. Aldol reaction B. Cannizzaro reaction C. Grignard reaction D. Methylation reaction
+Question 4: What is the main difference between a saturated and unsaturated hydrocarbon? A. The number of hydrogen atoms attached to the molecule B. The number of double bonds in the molecule C. The number of triple bonds in the molecule D. The number of branches in the molecule
+Question 5: What type of reaction is used to synthesize an amide from an acid and an amine? A. Condensation reaction B. Hydrolysis reaction C. Esterification reaction D. Amidation reaction
+Question 6: What is the name of the reaction where two molecules react to form a new bond between them? A. Condensation reaction B. Hydrolysis reaction C. Esterification reaction D. Oxidation reaction
+Question 7: What is the main difference between a nucleophile and an electrophile? A. The type of bond formed B. The type of atom involved C. The direction of electron flow D. The type of reaction involved
+Question 8: What type of reaction is used to synthesize an aldehyde from a ketone? A. Oxidation reaction B. Reduction reaction C. Hydrogenation reaction D. Dehydration reaction
+Question 9: What is the name of the compound formed when an acid is treated with a base? A. Salt B. Acid anhydride C. Acid chloride D. Salt anion
+Question 10: What is the main difference between a monosaccharide and a disaccharide? A. The number of carbon atoms in the molecule B. The type of bond formed between the molecules C. The number of hydroxyl groups in the molecule D. The type of functional group present
+Question 11: What type of reaction is used to synthesize a carboxylic acid from an aldehyde? A. Oxidation reaction B. Reduction reaction C. Hydrogenation reaction D. Dehydration reaction
+Question 12: What is the name of the reaction where a molecule is oxidized to form a new compound? A. Oxidation reaction B. Reduction reaction C. Hydrolysis reaction D. Esterification reaction
+Question 13: What is the main difference between a primary and secondary amine? A. The number of hydrogen atoms attached to the nitrogen atom B. The number of alkyl groups attached to the nitrogen atom C. The type of bond formed between the molecules D. The type of functional group present
+Question 14: What type of reaction is used to synthesize an ether from two alcohols? A. SN1 reaction B. SN2 reaction C. Condensation reaction D. Dehydration reaction
+Question 15: What is the name of the reaction where a molecule is reduced to form a new compound? A. Oxidation reaction B. Reduction reaction C. Hydrolysis reaction D. Esterification reaction
+Question 16: What is the main difference between a ketone and an aldehyde? A. The number of carbon atoms in the molecule B. The type of functional group present C. The type of bond formed between the molecules D. The type of reaction involved
+Question 17: What type of reaction is used to synthesize a tertiary alcohol from a primary
