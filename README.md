@@ -45,3 +45,4 @@ pip install -r requirements.txt
 # Run the application
 
 streamlit run app.py
+A recently added feature is 'test yourself'.This is likely to be expandable.A user can test hos knowledge and resort to help in case he wants from LLM.For on e part of the questions,answers are given at the end.
