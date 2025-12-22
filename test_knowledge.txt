@@ -17,3 +17,337 @@ Question 14: What type of reaction is used to synthesize an ether from two alcoh
 Question 15: What is the name of the reaction where a molecule is reduced to form a new compound? A. Oxidation reaction B. Reduction reaction C. Hydrolysis reaction D. Esterification reaction
 Question 16: What is the main difference between a ketone and an aldehyde? A. The number of carbon atoms in the molecule B. The type of functional group present C. The type of bond formed between the molecules D. The type of reaction involved
 Question 17: What type of reaction is used to synthesize a tertiary alcohol from a primary
+Reaction Mechanisms
+
+1. Which of the following is the rate-determining step in SN1 reactions?
+   a) Nucleophilic attack
+   b) Formation of carbocation
+   c) Deprotonation
+   d) Rearrangement
+2. In E2 elimination reactions, the stereochemistry is typically:
+   a) Syn-periplanar
+   b) Anti-periplanar
+   c) Synclinal
+   d) Anticlinal
+3. Which intermediate is formed in Baeyer-Villiger oxidation?
+   a) Epoxide
+   b) Criegee intermediate
+   c) Carbocation
+   d) Radical
+4. The mechanism of Claisen condensation involves:
+   a) Concerted pericyclic reaction
+   b) Nucleophilic acyl substitution
+   c) Enolate formation followed by nucleophilic attack
+   d) Radical chain propagation
+5. In the Hofmann rearrangement, the migrating group moves with:
+   a) Retention of configuration
+   b) Inversion of configuration
+   c) Complete racemization
+   d) Syn migration
+
+2. Named Reactions
+
+1. The Diels-Alder reaction proceeds via:
+   a) [4+2] cycloaddition
+   b) [2+2] cycloaddition
+   c) [3+2] cycloaddition
+   d) [6+4] cycloaddition
+2. Which reagent is typically used in Friedel-Crafts acylation?
+   a) AlCl₃
+   b) FeCl₃
+   c) BF₃
+   d) All of the above
+3. In the Wittig reaction, the phosphorus ylide acts as:
+   a) Electrophile
+   b) Nucleophile
+   c) Radical initiator
+   d) Lewis acid
+4. The Birch reduction of aromatic compounds gives:
+   a) Fully reduced cyclohexane
+   b) 1,4-cyclohexadiene
+   c) Benzene ring cleavage
+   d) Substituted benzenes
+5. The Stork enamine reaction involves addition of enamine to:
+   a) Aldehydes
+   b) α,β-unsaturated carbonyls
+   c) Epoxides
+   d) Alkyl halides
+
+3. Rearrangement Reactions
+
+1. In the Beckmann rearrangement, oximes are converted to:
+   a) Amides
+   b) Nitriles
+   c) Imines
+   d) Amines
+2. The pinacol rearrangement involves migration to:
+   a) Electron-deficient carbon
+   b) Electron-deficient oxygen
+   c) Electron-rich carbon
+   d) Carbocation
+3. Which rearrangement shows retention of configuration at the migrating carbon?
+   a) Wagner-Meerwein
+   b) Claisen
+   c) Cope
+   d) Curtius
+4. The Fries rearrangement converts phenolic esters to:
+   a) Hydroxy ketones
+   b) Phenolic acids
+   c) Dienones
+   d) Quinones
+5. In the Wolff rearrangement, α-diazo ketones yield:
+   a) Ketenes
+   b) Carbenes
+   c) Nitrenes
+   d) Allenes
+
+4. Oxidation Reactions
+
+1. Swern oxidation converts primary alcohols to:
+   a) Aldehydes
+   b) Carboxylic acids
+   c) Ketones
+   d) Esters
+2. Which reagent gives syn-hydroxylation of alkenes?
+   a) KMnO₄/OH⁻ (cold)
+   b) OsO₄
+   c) m-CPBA followed by hydrolysis
+   d) Both a and b
+3. The Jones reagent (CrO₃/H₂SO₄) oxidizes secondary alcohols to:
+   a) Aldehydes
+   b) Ketones
+   c) Carboxylic acids
+   d) Esters
+4. Ozonolysis of alkenes followed by reductive workup gives:
+   a) Aldehydes and/or ketones
+   b) Carboxylic acids
+   c) Alcohols
+   d) Epoxides
+5. TPAP (tetrapropylammonium perruthenate) is used for:
+   a) Mild oxidation of alcohols to carbonyls
+   b) Oxidative cleavage of diols
+   c) Aromatic ring oxidation
+   d) Baeyer-Villiger oxidation
+
+5. Reduction Reactions
+
+1. Lithium aluminum hydride reduces acid chlorides to:
+   a) Primary alcohols
+   b) Aldehydes
+   c) Secondary alcohols
+   d) Tertiary alcohols
+2. Selective reduction of nitriles to aldehydes can be achieved with:
+   a) DIBAL-H
+   b) LiAlH₄
+   c) NaBH₄
+   d) H₂/Pd
+3. Clemmensen reduction converts carbonyls to:
+   a) Alcohols
+   b) Alkanes
+   c) Alkenes
+   d) Ethers
+4. The Bouveault-Blanc reduction converts esters to:
+   a) Primary alcohols
+   b) Aldehydes
+   c) Carboxylic acids
+   d) Ketones
+5. Rosenmund reduction produces aldehydes from:
+   a) Acid chlorides
+   b) Esters
+   c) Nitriles
+   d) Amides
+
+6. Pericyclic Reactions
+
+1. Which of the following is a [3,3]-sigmatropic rearrangement?
+   a) Cope rearrangement
+   b) Claisen rearrangement
+   c) Both a and b
+   d) Diels-Alder reaction
+2. In electrocyclic reactions, thermal ring opening of cyclobutene proceeds with:
+   a) Conrotatory motion
+   b) Disrotatory motion
+   c) Suprafacial shift
+   d) Antarafacial shift
+3. The Woodward-Hoffmann rules predict stereochemistry based on:
+   a) Conservation of orbital symmetry
+   b) Steric hindrance
+   c) Electronic effects
+   d) Solvent polarity
+4. A 4π electron system undergoes thermal electrocyclic reaction with:
+   a) Conrotatory motion
+   b) Disrotatory motion
+   c) Either depending on substituents
+   d) No stereospecificity
+5. The Alder ene reaction involves transfer of:
+   a) Hydrogen atom
+   b) Methyl group
+   c) Hydroxyl group
+   d) Halogen atom
+
+7. Organometallic Reactions
+
+1. Heck reaction couples aryl halides with:
+   a) Alkenes
+   b) Alkynes
+   c) Organometallics
+   d) Carbonyl compounds
+2. In Suzuki coupling, the transmetalation step involves:
+   a) Palladium to boron
+   b) Boron to palladium
+   c) Palladium to tin
+   d) Tin to palladium
+3. Stille coupling uses organo-_____ compounds:
+   a) Tin
+   b) Boron
+   c) Zinc
+   d) Magnesium
+4. Sonogashira coupling joins terminal alkynes with:
+   a) Aryl halides
+   b) Alkenes
+   c) Aldehydes
+   d) Alcohols
+5. Negishi coupling involves organo-_____ reagents:
+   a) Zinc
+   b) Copper
+   c) Lithium
+   d) Aluminum
+
+8. Protecting Groups
+
+1. Which protecting group is stable under basic conditions but labile under acidic conditions?
+   a) TBDMS
+   b) THP
+   c) Benzyl
+   d) Acetyl
+2. The Fmoc group is commonly used for protection of:
+   a) Alcohols
+   b) Amines
+   c) Carboxylic acids
+   d) Ketones
+3. Which reagent cleaves the tert-butyldimethylsilyl (TBDMS) ether?
+   a) HF-pyridine
+   b) TBAF
+   c) Both a and b
+   d) NaOH/MeOH
+4. The benzyloxycarbonyl (Cbz) group protects amines and is removed by:
+   a) Hydrogenolysis
+   b) Acid hydrolysis
+   c) Base hydrolysis
+   d) Oxidation
+5. Acetals protect carbonyl groups and are stable under:
+   a) Basic and nucleophilic conditions
+   b) Acidic and reducing conditions
+   c) Oxidative conditions
+   d) All of the above
+
+9. Stereochemistry
+
+1. Sharpless asymmetric epoxidation gives high enantioselectivity with:
+   a) Allylic alcohols
+   b) Homoallylic alcohols
+   c) All alkenes
+   d) Dienes
+2. In asymmetric hydrogenation, chiral ligands control:
+   a) Enantioface selectivity
+   b) Regioselectivity
+   c) Chemoselectivity
+   d) All of the above
+3. The Cram's rule predicts stereochemistry in addition to:
+   a) Chiral aldehydes
+   b) Chiral ketones
+   c) Prochiral carbonyls
+   d) All carbonyls
+4. Kinetic resolution separates enantiomers based on differences in:
+   a) Reaction rates
+   b) Solubility
+   c) Boiling points
+   d) Melting points
+5. The Curtin-Hammett principle applies to reactions where:
+   a) Interconverting intermediates are involved
+   b) Stereochemistry is controlled thermodynamically
+   c) The product ratio depends on relative energies of transition states
+   d) All of the above
+
+10. Advanced Topics
+
+1. Metathesis reactions are catalyzed by:
+   a) Grubbs catalysts
+   b) Schrock catalysts
+   c) Both a and b
+   d) Wilkinson's catalyst
+2. In photochemical [2+2] cycloadditions, the stereochemistry is:
+   a) Suprafacial-suprafacial
+   b) Suprafacial-antarafacial
+   c) Antarafacial-antarafacial
+   d) Not stereospecific
+3. The Prins reaction involves addition of alkenes to:
+   a) Formaldehyde
+   b) Acetaldehyde
+   c) Both a and b
+   d) Ketones
+4. Barton reaction generates radicals by photolysis of:
+   a) Nitrite esters
+   b) Peroxides
+   c) Azides
+   d) Diazo compounds
+5. The Mitsunobu reaction couples alcohols with nucleophiles via:
+   a) Inversion of configuration
+   b) Retention of configuration
+   c) Racemization
+   d) Epimerization
+
+---
+
+Answer Key:
+
+1. b) Formation of carbocation
+2. b) Anti-periplanar
+3. b) Criegee intermediate
+4. c) Enolate formation followed by nucleophilic attack
+5. a) Retention of configuration
+6. a) [4+2] cycloaddition
+7. d) All of the above
+8. b) Nucleophile
+9. b) 1,4-cyclohexadiene
+10. b) α,β-unsaturated carbonyls
+11. a) Amides
+12. b) Electron-deficient oxygen
+13. c) Cope
+14. a) Hydroxy ketones
+15. a) Ketenes
+16. a) Aldehydes
+17. d) Both a and b
+18. b) Ketones
+19. a) Aldehydes and/or ketones
+20. a) Mild oxidation of alcohols to carbonyls
+21. a) Primary alcohols
+22. a) DIBAL-H
+23. b) Alkanes
+24. a) Primary alcohols
+25. a) Acid chlorides
+26. c) Both a and b
+27. a) Conrotatory motion
+28. a) Conservation of orbital symmetry
+29. b) Disrotatory motion
+30. a) Hydrogen atom
+31. a) Alkenes
+32. b) Boron to palladium
+33. a) Tin
+34. a) Aryl halides
+35. a) Zinc
+36. b) THP
+37. b) Amines
+38. c) Both a and b
+39. a) Hydrogenolysis
+40. a) Basic and nucleophilic conditions
+41. a) Allylic alcohols
+42. a) Enantioface selectivity
+43. c) Prochiral carbonyls
+44. a) Reaction rates
+45. d) All of the above
+46. c) Both a and b
+47. a) Suprafacial-suprafacial
+48. c) Both a and b
+49. a) Nitrite esters
+50. a) Inversion of configuration
