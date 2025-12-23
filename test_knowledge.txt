@@ -45,7 +45,7 @@ Reaction Mechanisms
    b) Inversion of configuration
    c) Complete racemization
    d) Syn migration
-
+---------------+------------
  Named Reactions
 
 6. The Diels-Alder reaction proceeds via:
@@ -73,7 +73,7 @@ Reaction Mechanisms
    b) α,β-unsaturated carbonyls
    c) Epoxides
    d) Alkyl halides
-
+-----------------------------
  Rearrangement Reactions
 
 11. In the Beckmann rearrangement, oximes are converted to:
