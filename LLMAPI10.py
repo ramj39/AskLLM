@@ -1216,6 +1216,7 @@ def render_enhanced_sidebar():
                     st.error("❌ Invalid SMILES")
         
         st.markdown("---")
+        st.markdown("[structure,properties,similar compounds](https://chemblcheminformaticsdashboard-cupxnrw6yf56zrsglzc8uk.streamlit.app/)")
         st.markdown("[bioactivity app](https://reactions-wzbgd4ra4ccktp2rdcowrp.streamlit.app/)")
         st.markdown("[related app](https://organicsynthesis-8ntcctsrxys2rdktcw7fa5.streamlit.app)")
         st.markdown("[help file](https://github.com/ramj39/AskLLM/blob/main/README.md)")
@@ -1872,6 +1873,7 @@ st.sidebar.write(f"👥 Total visitors: {count}")
 
 if __name__ == "__main__":
     main()
+
 
 
 
