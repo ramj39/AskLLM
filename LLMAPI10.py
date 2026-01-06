@@ -9,6 +9,17 @@ import os
 from typing import List, Dict
 import hashlib
 st.write("please restrict LLM questions to chemistry and technology") 
+st.markdown(
+    """
+    ⚠️ **Disclaimer**  
+    This app uses Groq LLM to generate responses.  
+    Outputs are AI‑generated and may not always be accurate.  
+    Please verify results independently, especially for queries in **chemistry** and **technology**.  
+    Use for educational and exploratory purposes only — not as a substitute for professional advice.
+    """,
+    unsafe_allow_html=True
+)
+
 def get_api_key():
     # Prefer secrets; fallback to environment
     return st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
@@ -1874,6 +1885,7 @@ st.sidebar.write(f"👥 Total visitors: {count}")
 
 if __name__ == "__main__":
     main()
+
 
 
 
