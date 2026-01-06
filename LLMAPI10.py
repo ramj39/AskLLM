@@ -8,6 +8,7 @@ import json
 import os
 from typing import List, Dict
 import hashlib
+st.write("please restrict LLM questions to chemistry and technology") 
 def get_api_key():
     # Prefer secrets; fallback to environment
     return st.secrets.get("GROQ_API_KEY", os.getenv("GROQ_API_KEY", ""))
@@ -1873,6 +1874,7 @@ st.sidebar.write(f"👥 Total visitors: {count}")
 
 if __name__ == "__main__":
     main()
+
 
 
 
