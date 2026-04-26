@@ -1,5 +1,5 @@
 libxrender1
 libsm6
 libxext6
-#libgl1-mesa-glx
+libgl1-mesa-glx
 libglx-mesa0
